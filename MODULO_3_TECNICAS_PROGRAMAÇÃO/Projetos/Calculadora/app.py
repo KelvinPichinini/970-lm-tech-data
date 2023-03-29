@@ -20,9 +20,11 @@ def calcule():
         b = float(b)
     except:
         print("Números inválidos")
+        return None
     try:
-        print(operations[operation](a,b))
+        return operations[operation](a,b)
     except:
         print("Operação inválida")
+        return None
 
-calcule()
+print(calcule())
