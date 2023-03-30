@@ -100,5 +100,6 @@ df = pd.DataFrame(list(zip(
     ])
 print(df[['total_first_half_corners',
         'total_second_half_corners',
-        'total_match_corners',]].describe())
+        'total_match_corners',
+        'corners_balance']].describe())
     
